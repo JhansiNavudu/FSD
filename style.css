@@ -1,0 +1,39 @@
+#heading{
+    font-size: 30;
+    color: orange;
+    text-align: center;
+}
+#align{
+    text-align: right;
+    font-size: 20;
+}
+#list{
+    color: blue;
+}
+#top{
+    color: magenta;
+}
+div{
+    background-color: lightgreen;
+    width:auto;
+    height: fit-content;
+    border: 5px solid green;
+    padding: 50px;
+    margin: 5px;
+}
+#new{
+    color: black;
+    font-size: x-large;
+    font-style: oblique;
+}
+#table{
+    background-color: lightcoral;
+    padding: 25px;
+    text-align: center;
+    column-gap: 40px;
+}
+th{
+    padding-left: 25px;
+    padding-top: 15px;
+    font-size: 20px;
+}
