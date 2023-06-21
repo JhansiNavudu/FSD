@@ -3,6 +3,11 @@
     color: orange;
     text-align: center;
 }
+.img{
+    border-style:outset;
+    border-radius: 20px;
+    border-width: 10;
+}
 #align{
     text-align: right;
     font-size: 20;
@@ -11,13 +16,19 @@
     color: blue;
 }
 #top{
-    color: magenta;
+    color: black;
+    text-decoration:underline 2px red;
+    font-style: oblique;
+    font-size: large;
 }
 div{
-    background-color: lightgreen;
+    background-color:lime;
     width:auto;
-    height: fit-content;
+    height: auto;
     border: 5px solid green;
+    border-radius: 25px;
+    border-style: inherit;
+    box-shadow: 10px 10px rgb(76, 148, 243);
     padding: 50px;
     margin: 5px;
 }
@@ -25,6 +36,7 @@ div{
     color: black;
     font-size: x-large;
     font-style: oblique;
+    text-decoration:underline 2px red;
 }
 #table{
     background-color: lightcoral;
@@ -37,3 +49,18 @@ th{
     padding-top: 15px;
     font-size: 20px;
 }
+.grid-container{
+    display: grid;
+    grid: initial;
+    border-radius: 25;
+}
+.column{
+    display:grid;
+    float: left;
+    height: 200;
+    width: 40%;
+}
+.row{
+    float: left;
+}
+
